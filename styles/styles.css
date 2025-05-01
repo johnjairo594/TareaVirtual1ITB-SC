@@ -7,27 +7,31 @@ body {
 #first-header {
     display: flex;
     justify-content: space-between;
-    height: 20px;
+    height: 1.5rem;
     width: 100%;
     background-color: #593207;
 }
 
 #first-header-links {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 90%;
+}
+
+.bordeTopMenuDerecha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-left: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #first-header-links a {
-    display: flex;
-    align-items: center;
     text-decoration: none;
     color: white;
-    height: 100%;
-    font-size: 10px;
-    padding-left: 10px;
-    border-left: 1px solid white;
+    font-size: 14px;
 }
 
 #header-social-media-icons {
@@ -45,27 +49,32 @@ body {
 
 
 nav {
-    display: flex;
-    justify-content: space-around;
+    display: flex !important;
     align-items: center;
-    height: 80px;   
+    height: 6rem;   
     background-color: #175228;
 }
 
+#logo-container {
+    display: flex;
+    align-items: center;
+}
+
 #logo-container img{
-    height: 50px;
+    height: 4.5rem;
 }
 
 #nav-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 45%;
+    width: 60%;
 }
 
 #nav-links a {
     text-decoration: none;
     color: #f2f8ea;
+    font-size: 1rem;
 }
 
 #nav-link-special {
@@ -76,8 +85,8 @@ nav {
     padding: 5px 12px;
     border-radius: 15px;
     border: 1px solid #f2f8ea;
-    font-size: 12px;
-    height: 45px;
+    font-size: 1rem;
+    height: 5rem;
 }
 
 #carouselExampleControls {
